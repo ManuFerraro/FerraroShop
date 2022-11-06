@@ -243,7 +243,7 @@ import { ICartProduct } from '../../interfaces/cart';
 import { ItemCounter } from '../../components/ui/ItemCounter';
 import { useRouter } from 'next/router';
 import { CartContext } from '../../context/cart';
-import { AiFillCaretDown } from 'react-icons/Ai';
+import { AiFillCaretDown } from 'react-icons/ai';
 
 
 export const getStaticProps:GetStaticProps = async ({ params }) => {
