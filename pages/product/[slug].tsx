@@ -1,5 +1,12 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
+import { GetStaticProps } from 'next'
+import { dbProducts } from '../../database';
+import { ICartProduct } from '../../interfaces/cart';
+import { ItemCounter } from '../../components/ui/ItemCounter';
+import { useRouter } from 'next/router';
+import { CartContext } from '../../context/cart';
+import { AiFillCaretDown } from 'react-icons/ai';
 import styles from '../../styles/product/Slug.module.css';
 import { ProductLayout } from '../../components/layouts/ProductLayout';
 import { MdKeyboardBackspace } from 'react-icons/md';
@@ -237,13 +244,7 @@ export const getStaticPaths: GetStaticPaths = async (ctx) => {
 
 // You should use getServerSideProps when:
 // - Only if you need to pre-render a page whose data must be fetched at request time
-import { GetStaticProps } from 'next'
-import { dbProducts } from '../../database';
-import { ICartProduct } from '../../interfaces/cart';
-import { ItemCounter } from '../../components/ui/ItemCounter';
-import { useRouter } from 'next/router';
-import { CartContext } from '../../context/cart';
-import { AiFillCaretDown } from 'react-icons/ai';
+
 
 
 export const getStaticProps:GetStaticProps = async ({ params }) => {
