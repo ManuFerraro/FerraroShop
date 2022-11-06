@@ -14,7 +14,7 @@ import { useRouter } from 'next/router';
 import { CartContext } from '../../../context/cart';
 import { AuthContext } from '../../../context/auth';
 import { CiSearch } from 'react-icons/Ci';
-import { AiOutlineMenu } from 'react-icons/Ai';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 
 

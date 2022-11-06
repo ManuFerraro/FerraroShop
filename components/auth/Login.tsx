@@ -1,5 +1,5 @@
 import { useEffect, useState, useContext } from 'react';
-import { AiOutlineClose } from 'react-icons/Ai';
+import { AiOutlineClose } from 'react-icons/ai';
 import { selectUi, toggleAccount } from '../../store/features/toggleMenuSlice';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import styles from '../../styles/auth/Login.module.css';
