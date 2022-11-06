@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+
+
+.footerContainer{
+    max-width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+
+}
+
+.footerColI{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+}
+
+.footerServices{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.footerServices h1{
+    font-size: 20px;
+}
+
+.footerServices span{
+    padding-top: 10px;
+    color: #696969;
+}
+
+.orders{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.orders h1{
+    font-size: 20px;
+}
+
+.orders span{
+    padding-top: 10px;
+    color: #696969;
+}
+
+.maison{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.maison h1{
+    font-size: 20px;
+}
+
+.maison span{
+    padding-top: 10px;
+    color: #696969;
+}
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.legal h1{
+    font-size: 20px;
+}
+
+.legal span{
+    padding-top: 10px;
+    color: #696969;
+}
+
+.footerColII{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.footerSpanes{
+    font-size: 16px;
+    
+}
+
+.footerIcons{
+    font-size: 30px;
+    color: #696969;
+}
+
+.footerColIII{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .footerContainer{
+        height: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Dosis', sans-serif;
+        font-size: 15px;
+        margin-top: -250px;
+    }
+    
+    .footerColI{
+        height: 700px;
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+    .footerServices{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+    }
+    
+    .footerServices h1{
+        font-size: 20px;
+    }
+    
+    .footerServices span{
+        padding-top: 10px;
+        color: #696969;
+    }
+    
+    .orders{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+    }
+    
+    .orders h1{
+        font-size: 20px;
+    }
+    
+    .orders span{
+        padding-top: 10px;
+        color: #696969;
+    }
+    
+    .maison{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+    }
+    
+    .maison h1{
+        font-size: 20px;
+    }
+    
+    .maison span{
+        padding-top: 10px;
+        color: #696969;
+    }
+    
+    .legal{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+    }
+    
+    .legal h1{
+        font-size: 20px;
+    }
+    
+    .legal span{
+        padding-top: 10px;
+        color: #696969;
+    }
+    
+    .footerColII{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+    
+    .footerSpanes{
+        font-size: 16px;
+        
+    }
+    
+    .footerIcons{
+        font-size: 30px;
+        color: #696969;
+    }
+    
+    .footerColIII{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .footerContainer{
+        height: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Dosis', sans-serif;
+        font-size: 15px;
+    }
+    
+    .footerColI{
+        height: 700px;
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+    .footerServices{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+    }
+    
+    .footerServices h1{
+        font-size: 20px;
+    }
+    
+    .footerServices span{
+        padding-top: 10px;
+        color: #696969;
+    }
+    
+    .orders{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+    }
+    
+    .orders h1{
+        font-size: 20px;
+    }
+    
+    .orders span{
+        padding-top: 10px;
+        color: #696969;
+    }
+    
+    .maison{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+    }
+    
+    .maison h1{
+        font-size: 20px;
+    }
+    
+    .maison span{
+        padding-top: 10px;
+        color: #696969;
+    }
+    
+    .legal{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+    }
+    
+    .legal h1{
+        font-size: 20px;
+    }
+    
+    .legal span{
+        padding-top: 10px;
+        color: #696969;
+    }
+    
+    .footerColII{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+    
+    .footerSpanes{
+        font-size: 16px;
+        
+    }
+    
+    .footerIcons{
+        font-size: 30px;
+        color: #696969;
+    }
+    
+    .footerColIII{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

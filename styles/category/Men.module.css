@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
+
+
+.menContainer{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.menTitleContainer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menTitleContainer span{
+    height: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 28px;
+    color: #444444;
+}
+
+.menSubtitle{
+    height: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .menContainer{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .menTitleContainer{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menTitleContainer span{
+        height: 50px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 28px;
+        color: #444444;
+    }
+    
+    .menSubtitle{
+        height: 30px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .menContainer{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .menTitleContainer{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menTitleContainer span{
+        height: 50px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 28px;
+        color: #444444;
+    }
+    
+    .menSubtitle{
+        height: 30px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 768px){
+
+    .menContainer{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    .menTitleContainer{
+        width: 90%;
+        height: 100px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    
+    .menTitleContainer span{
+        text-align: center;
+        height: 50px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 26px;
+        color: #444444;
+    }
+    
+    .menSubtitle{
+        height: 30px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+}

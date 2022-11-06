@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+.topInfoContainer{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.topInfoTitleContainer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.topInfoTitleContainer span{
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.topInfoBodyContainer{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.topInfoBodyP{
+ width: 50%;
+ height: 245px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.topInfoButton{
+    margin-top: -10px;
+    font-family: 'PT Mono', monospace;
+    border-bottom: 1px solid black;
+}
+
+.topInfoButton:hover{
+    border: none;
+    cursor: pointer;
+}
+
+.topInfoBodyP p{
+    padding: 15px;
+    font-family: 'PT Mono', monospace;
+    font-size: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.topInfoBodyP span{
+    padding-left: 235px;
+}
+
+/* Escritorio extra grande */
+@media only screen and (min-width: 1450px) and (max-width: 1700px){
+    .topInfoBodyP{
+        width: 60%;
+        height: 245px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+}
+/* Escritorio grande */
+@media only screen and (min-width: 1200px) and (max-width: 1450px){
+    .topInfoBodyP{
+        width: 75%;
+        height: 245px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+}
+
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .topInfoBodyP{
+        width: 90%;
+        height: 245px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .topInfoBodyP p{
+        font-size: 14px;
+       }
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .topInfoBodyP{
+        width: 100%;
+        height: 245px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .topInfoTitleContainer span{
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.6rem;
+    }
+       .topInfoBodyP p{
+        font-size: 14px;
+       }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .topInfoContainer{
+        width: 100%;
+        height: 340px;
+        margin-bottom: 2.5rem;
+    }
+    .topInfoTitleContainer{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: top;
+        justify-content: center;
+    }
+    .topInfoBodyContainer{
+        margin: 0;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .topInfoBodyP{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       }
+       .topInfoTitleContainer span{
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+       .topInfoBodyP p{
+        font-size: 14px;
+       }
+       .topInfoButton{
+        font-family: 'PT Mono', monospace;
+        border-bottom: 1px solid black;
+        font-size: 0.9rem;
+        
+    }
+}

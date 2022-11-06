@@ -1,0 +1,176 @@
+.searchContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.searchTitleContainer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.searchTitleContainer span{
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    color: #444444;
+    margin-right: 10px;
+}
+
+.searchTitleContainer div{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-decoration-line: underline;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.searchSubtitle{
+    height: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.noSearch{
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .searchContainer{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .searchTitleContainer{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+   
+    .searchTitleContainer div{
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        text-decoration-line: underline;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    .searchSubtitle{
+        height: 30px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .noSearch{
+        font-size: 13px;
+    }
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .searchContainer{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .searchTitleContainer{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+   
+    .searchTitleContainer div{
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        text-decoration-line: underline;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    .searchSubtitle{
+        height: 30px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .noSearch{
+        font-size: 13px;
+    }
+    
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 768px){
+
+    .searchContainer{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    
+    .searchTitleContainer{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .searchTitleContainer span{
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        color: #444444;
+        margin-right: 10px;
+    }
+    .searchTitleContainer div{
+        font-family: 'Dosis', sans-serif;
+        font-size: 18px;
+        text-decoration-line: underline;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+   
+    
+    
+    .noSearch{
+        font-size: 13px;
+        text-align: center;
+
+    }
+    
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
+
+
+
+.ordenSummaryContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ordenColI{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Dosis', sans-serif;
+   
+}
+
+.ordenColI span{
+    font-weight: 600;
+    font-size: 17px;
+
+}
+
+.ordenColII{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Dosis', sans-serif;
+ 
+}
+
+.ordenColII span{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.ordenColIII{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Dosis', sans-serif;
+}
+
+.ordenColIII span{
+    font-weight: 600;
+    font-size: 20px;
+}
+

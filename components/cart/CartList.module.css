@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
+
+
+.cartListContainer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.cartListColumnI{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.cartListColumnII{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.carListTitle{
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.carListTitle span{
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+.descriptionCartList{
+    height: 100%;
+    display: flex;
+    
+    
+}
+.descriptionI{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.descriptionI span{
+    font-size: 12px;
+    color: #696969;
+}
+
+
+.descriptionII{
+   display: flex;
+   align-items: center;
+   padding-top: 20px;
+}
+
+.cartListColumnIII{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.cartListColumnIII div{
+    color: #696969;
+    font-size: 15px;
+}
+
+.removeProduct{
+    cursor: pointer;
+}
+
+
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .cartListContainer{
+        width: 100%;
+        height: 100px;
+        display: flex;
+    }
+    
+    .cartListColumnI{
+      width: 15%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      cursor: pointer;
+    }
+    
+    .cartListColumnII{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .carListTitle{
+        height: 40px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .carListTitle span{
+        font-size: 15px;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 600;
+    }
+    
+    .descriptionCartList{
+        height: 100%;
+        display: flex;
+        
+        
+    }
+    .descriptionI{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .descriptionI span{
+        font-size: 12px;
+        color: #696969;
+    }
+    
+    
+    .descriptionII{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding-top: 20px;
+    }
+    
+    .cartListColumnIII{
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    
+    .cartListColumnIII div{
+        color: #696969;
+        font-size: 15px;
+    }
+
+    .removeProduct{
+        cursor: pointer;
+    }
+    
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .cartListContainer{
+        width: 95%;
+        height: 150px;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 30px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #696969;
+    }
+    
+    .cartListColumnI{
+      width: 20%;
+      display: flex;
+      align-items: flex-start;
+      padding-top: 10px;
+      cursor: pointer;
+    }
+    
+    .cartListColumnII{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    
+    .carListTitle{
+        height: 40px;
+        display: flex;
+       
+    }
+    
+    .carListTitle span{
+        font-size: 20px;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 500;
+    }
+    
+    .descriptionCartList{
+        height: 100%;
+        display: flex;
+    
+    }
+
+    .descriptionI{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    .descriptionI span{
+        font-size: 12px;
+        color: #696969;
+    }
+    
+    
+    .descriptionII{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-right: 10px;
+    }
+    
+    .cartListColumnIII{
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    .cartListColumnIII div{
+        color: #696969;
+        font-size: 15px;
+    }
+    
+    .removeProduct{
+        cursor: pointer;
+    }
+    
+}

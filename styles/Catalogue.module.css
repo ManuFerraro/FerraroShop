@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
+
+.cardTopTitle{
+    text-align: center;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    
+}
+.gridCatalogueContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.cardContainer{
+    width: 100%;
+    cursor: pointer;
+   
+}
+
+.cardImg{
+    width: 100%; 
+    
+    
+}
+
+.cardTitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .cardTopTitle{
+        text-align: center;
+        width: 100%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 2rem;
+        
+    }
+    .gridCatalogueContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    .cardContainer{
+        width: 100%; 
+    }
+    
+    .cardImg{
+        width: 100%;   
+    }
+    
+    .cardTitle{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+    
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .cardTopTitle{
+        text-align: center;
+        width: 100%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.5rem;
+        
+    }
+    .gridCatalogueContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    .cardContainer{
+        width: 100%; 
+    }
+    
+    .cardImg{
+        width: 100%;   
+    }
+    
+    .cardTitle{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .cardTopTitle{
+        text-align: center;
+        width: 100%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.5rem;
+        
+    }
+    .gridCatalogueContainer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    .cardContainer{
+        width: 100%; 
+    }
+    
+    .cardImg{
+        width: 100%;   
+    }
+    
+    .cardTitle{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+}

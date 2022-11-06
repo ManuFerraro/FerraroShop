@@ -1,0 +1,1056 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
+
+
+.addressFullContainer{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addressProgressContainer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addressProcessTitles{
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    margin-bottom: -12px;
+    
+}
+
+.addressProcessTitles ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.addressProcessTitles ul li{
+    width: 150px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleLix{
+ font-weight: 600;
+ padding-left: 20px;
+}
+
+.titleLixx{
+    color: #696969;
+    margin-right: 10px;
+    padding-left: 50px;
+}
+
+.addressProcessIcon{
+    width: 100%;
+    height: 30px;
+}
+
+.addressProcessIcon ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+
+
+
+
+.lineStep{
+    width: 440px;
+
+    border-bottom: 0.4px solid #444444
+}
+
+.lineStepActive{
+    width: 210px;
+    border-bottom: 3px solid #444444
+}
+.lineStepActives{
+    width: 440px;
+    border-bottom: 3px solid #444444
+}
+
+.lineStepFinal{
+    width: 200px;
+    border-bottom: 1px solid #444444
+}
+
+
+.circleStep{
+    width: 11px;
+    height: 11px;
+    border: 1px solid #696969;
+    border-radius: 50%;
+    bottom: 3px;
+    -webkit-transform: translate(0,6px);
+    -ms-transform: translate(0,6px);
+    transform: translateY(6px);
+    background: none; 
+}
+
+
+/* /// ADDRESS BODY */
+
+.addressBodyContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.addressColumnI{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.addressColumnII{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.organgeBoxContainer{
+    width: 75%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.orangeBox_title{
+   height: 60px;
+   display: flex;
+   align-items: center;
+}
+
+.orangeBox_title span{
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+.orangeBox__img{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.orangeBox__img span{
+    width: 60%;
+    font-size: 12px;
+    color: #444444;
+    margin-left: 1rem;
+}
+
+.orangeBox__service{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.orangeBox__titleService{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.orangeBox__titleService span{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+
+.orangeBox__phone{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.orangeBox__phoneNumber{
+    width: 185px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orangeBox__phoneNumber span{
+    font-size: 19px;
+    color: #444444;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.phoneIcon{
+    font-size: 20px;
+    color: #444444;
+}
+
+.orangePhoneSpan{
+    width: 100%;
+    margin-left: 2rem;
+    font-size: 13.5px;
+    padding-bottom: 3px;
+}
+
+
+.orangeBox__delivery{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orangeBox__delivery div{
+    width: 110px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -15px;
+}
+.delivery_icon{
+    color: #696969;
+    font-size: 30px;
+}
+.orangeBox__delivery div span{
+    font-size: 12px;
+    text-align: center;
+}
+
+.orangeBox__creditCard{
+    width: 90%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+.organgeCreditI{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.organgeCreditII{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+}
+
+
+/* /// ADDRESS FORM */
+
+.address__title{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.address__titleX{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.address__titleX span{
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.address__titleXX{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.address__titleXX span{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.address__titleIcon{
+    font-size: 17px;
+}
+
+.address__subTitle{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.address__subInfo{
+  height: 40px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.address__form{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.form_name{
+  display: flex;
+  justify-content: space-between;
+    
+}
+
+.address_address{
+    margin-top: 20px;
+}
+
+.address__finalButton{
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.address__finalButton button{
+   background-color: #444444;
+   color: white;
+   font-weight: 600;
+   width: 200px;
+   height: 40px;
+   border: none;
+   
+}
+
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .addressFullContainer{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .addressProgressContainer{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .addressProcessTitles{
+        width: 100%;
+        height: 30px;
+        padding: 0;
+        margin-bottom: -12px;
+        
+    }
+    
+    .addressProcessTitles ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    
+    .addressProcessTitles ul li{
+        width: 150px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .titleLix{
+     font-weight: 600;
+     padding-left: 0px;
+    }
+    
+    .titleLixx{
+        color: #696969;
+        margin-right: 10px;
+        padding-right: 120px;
+    }
+
+    .titleLixxx{
+       padding-left: 45px;
+    }
+    
+    .addressProcessIcon{
+        width: 100%;
+        height: 30px;
+    }
+    
+    .addressProcessIcon ul{
+        width: 100%;
+        list-style: none;
+        display: flex;
+    }
+    
+    
+    
+    
+    .lineStep{
+        width: 160px;
+    
+        border-bottom: 0.4px solid #444444
+    }
+    
+    .lineStepActive{
+        width: 120px;
+        border-bottom: 3px solid #444444
+    }
+    .lineStepActives{
+        width: 160px;
+        border-bottom: 3px solid #444444
+    }
+    
+    .lineStepFinal{
+        width: 120px;
+        border-bottom: 1px solid #444444
+    }
+    
+    
+    .circleStep{
+        width: 11px;
+        height: 11px;
+        border: 1px solid #696969;
+        border-radius: 50%;
+        bottom: 3px;
+        -webkit-transform: translate(0,6px);
+        -ms-transform: translate(0,6px);
+        transform: translateY(6px);
+        background: none; 
+    }
+    
+    
+    /* /// ADDRESS BODY */
+    
+    .addressBodyContainer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .addressColumnI{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .addressColumnII{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .organgeBoxContainer{
+        width: 75%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .orangeBox_title{
+       height: 60px;
+       display: flex;
+       align-items: center;
+    }
+    
+    .orangeBox_title span{
+        font-size: 16px;
+        font-family: 'Dosis', sans-serif;
+        
+    }
+    
+    .orangeBox__img{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        height: 70px;
+    }
+    
+    .orangeBox__img span{
+        width: 60%;
+        font-size: 12px;
+        color: #444444;
+        margin-left: 1rem;
+    }
+    
+    .orangeBox__service{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .orangeBox__titleService{
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .orangeBox__titleService span{
+        font-family: 'Dosis', sans-serif;
+        font-size: 16px;
+    }
+    
+    .orangeBox__phone{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    .orangeBox__phoneNumber{
+        width: 185px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .orangeBox__phoneNumber span{
+        font-size: 19px;
+        color: #444444;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .phoneIcon{
+        font-size: 20px;
+        color: #444444;
+    }
+    
+    .orangePhoneSpan{
+        width: 100%;
+        margin-left: 2rem;
+        font-size: 13.5px;
+        padding-bottom: 3px;
+    }
+    
+    
+    .orangeBox__delivery{
+        width: 90%;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .orangeBox__delivery div{
+        width: 110px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -15px;
+    }
+    .delivery_icon{
+        color: #696969;
+        font-size: 30px;
+    }
+    .orangeBox__delivery div span{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .orangeBox__creditCard{
+        width: 90%;
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .organgeCreditI{
+      display: flex;
+      height: 50px;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 22px;
+    }
+    
+    .organgeCreditII{
+      display: flex;
+      height: 50px;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 22px;
+    }
+    
+    
+    /* /// ADDRESS FORM */
+    
+    .address__title{
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+    }
+    
+    .address__titleX{
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .address__titleX span{
+        font-family: 'Dosis', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .address__titleXX{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .address__titleXX span{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .address__titleIcon{
+        font-size: 17px;
+    }
+    
+    .address__subTitle{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    
+    .address__subInfo{
+      height: 40px;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    
+    .address__form{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form_name{
+      display: flex;
+      justify-content: space-between;
+        
+    }
+    
+    .address_address{
+        margin-top: 20px;
+    }
+    
+    .address__finalButton{
+        height: 80px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .address__finalButton button{
+       background-color: #444444;
+       color: white;
+       font-weight: 600;
+       width: 200px;
+       height: 40px;
+       border: none;
+       
+    }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .addressFullContainer{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .addressProgressContainer{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .addressProcessTitles{
+        width: 100%;
+        height: 30px;
+        padding: 0;
+        margin-bottom: -12px;
+        
+    }
+    
+    .addressProcessTitles ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        
+    }
+    
+    .addressProcessTitles ul li{
+        width: 150px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+    
+    .titleLix{
+     font-weight: 600;
+    
+     
+    }
+    
+    .titleLixx{
+        color: #696969;
+        margin-right: 20px;
+        padding-left: 0px;
+    }
+
+    .titleLixxx{
+         padding-left: 20px;
+    }
+    
+    .addressProcessIcon{
+        width: 100%;
+        height: 30px;
+    }
+    
+    .addressProcessIcon ul{
+        width: 100%;
+        list-style: none;
+        display: flex;
+    }
+    
+    
+    
+    
+    .lineStep{
+        width: 80px;
+    
+        border-bottom: 0.4px solid #444444
+    }
+    
+    .lineStepActive{
+        width: 60px;
+        border-bottom: 3px solid #444444
+    }
+    .lineStepActives{
+        width: 100px;
+        border-bottom: 3px solid #444444
+    }
+    
+    .lineStepFinal{
+        width: 60px;
+        border-bottom: 1px solid #444444
+    }
+    
+    
+    .circleStep{
+        width: 11px;
+        height: 11px;
+        border: 1px solid #696969;
+        border-radius: 50%;
+        bottom: 3px;
+        -webkit-transform: translate(0,6px);
+        -ms-transform: translate(0,6px);
+        transform: translateY(6px);
+        background: none; 
+    }
+    
+    
+    /* /// ADDRESS BODY */
+    
+    .addressBodyContainer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .addressColumnI{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .addressColumnII{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .organgeBoxContainer{
+        width: 75%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .orangeBox_title{
+       height: 60px;
+       display: flex;
+       align-items: center;
+    }
+    
+    .orangeBox_title span{
+        font-size: 16px;
+        font-family: 'Dosis', sans-serif;
+        
+    }
+    
+    .orangeBox__img{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        height: 70px;
+    }
+    
+    .orangeBox__img span{
+        width: 60%;
+        font-size: 12px;
+        color: #444444;
+        margin-left: 1rem;
+    }
+    
+    .orangeBox__service{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .orangeBox__titleService{
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .orangeBox__titleService span{
+        font-family: 'Dosis', sans-serif;
+        font-size: 16px;
+    }
+    
+    .orangeBox__phone{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+    .orangeBox__phoneNumber{
+        width: 185px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .orangeBox__phoneNumber span{
+        font-size: 19px;
+        color: #444444;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .phoneIcon{
+        font-size: 20px;
+        color: #444444;
+    }
+    
+    .orangePhoneSpan{
+        width: 100%;
+        margin-left: 2rem;
+        font-size: 13.5px;
+        padding-bottom: 3px;
+    }
+    
+    
+    .orangeBox__delivery{
+        width: 90%;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .orangeBox__delivery div{
+        width: 110px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -15px;
+    }
+    .delivery_icon{
+        color: #696969;
+        font-size: 30px;
+    }
+    .orangeBox__delivery div span{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .orangeBox__creditCard{
+        width: 90%;
+        height: 110px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .organgeCreditI{
+      display: flex;
+      height: 50px;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 22px;
+    }
+    
+    .organgeCreditII{
+      display: flex;
+      height: 50px;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 22px;
+    }
+    
+    
+    /* /// ADDRESS FORM */
+    
+    .address__title{
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+    }
+    
+    .address__titleX{
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .address__titleX span{
+        font-family: 'Dosis', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .address__titleXX{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .address__titleXX span{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .address__titleIcon{
+        font-size: 17px;
+    }
+    
+    .address__subTitle{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    
+    .address__subInfo{
+      height: 40px;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    
+    .address__form{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form_name{
+      display: flex;
+      justify-content: space-between;
+        
+    }
+    
+    .address_address{
+        margin-top: 20px;
+    }
+    
+    .address__finalButton{
+        height: 80px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .address__finalButton button{
+       background-color: #444444;
+       color: white;
+       font-weight: 600;
+       width: 200px;
+       height: 40px;
+       border: none;
+       
+    }
+}

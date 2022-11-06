@@ -1,0 +1,109 @@
+@import "react-slideshow-image/dist/styles.css";
+
+html,
+body {
+  max-width: 1800px;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+ 
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* .mainGlobalContainer{
+  width:  100%;
+  margin: 70px auto;
+  max-width: 1800px;
+  padding: 0px 30px;
+} */
+
+.mainGlobalContainer{
+  width:  77%;
+  margin: 70px auto;
+  max-width: 1440px;
+  padding: 0px 30px;
+}
+.productLayoutBody{
+  width: 92%;
+  max-width: 1650px;
+  margin: 0px auto;
+}
+
+.cartLayoutBody{
+  width: 100%;
+  max-width: 1800px;
+  margin: 0px auto;
+}
+@media only screen and (max-width: 767px){
+  .mainGlobalContainer{
+    width:  100%;
+    margin: 35px auto;
+    max-width: 1440px;
+    padding: 0px 30px;
+   
+  }
+  .productLayoutBody{
+    width: 100%;
+    max-width: 1650px;
+    margin: 0px auto;
+  }
+  
+}
+
+
+.btn{
+  margin: 0;
+  width: 200px;
+  height: 500px;
+  background-color: red;
+
+}
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+ 
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 1450px){
+  .mainGlobalContainer{
+    width:  95%;
+    margin: 35px auto;
+    max-width: 1440px;
+    padding: 0px 30px;
+  }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+
+}

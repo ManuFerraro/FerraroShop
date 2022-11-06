@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
+.sideMenuContainerBlur{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1990;
+    width: 100%;
+    height: 100%;
+     transition: opacity .5s cubic-bezier(.77,0,.175,1);
+    background-color: rgba(68,68,68,.45);
+    
+     
+}
+
+.container{
+    width: 510px;
+    height: 100%;
+    top: 0;
+    left: -510px;
+    z-index: 2000;
+    position: fixed;
+    background-color: white;
+    transition: all 0.6s;
+  
+}
+
+.sideMenuContainer{
+    width: 510px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    position: fixed;
+    background-color: white;
+    transition: all 0.6s;
+}
+
+.sideMenu{
+    width: 70%;
+    height: 850px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.sideTitle{
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sideTitle__item{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sideTitle__icon{
+    color: #696969;
+    cursor: pointer;
+    font-size: 22px;
+}
+.sideTitle__item span{
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.sideListContainer{
+    height: 350px;
+    margin-top: -130px;
+}
+
+.sideList{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.list__item{
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.list__button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sideList__icon{
+    margin-right: 52px;
+}
+
+.list_itemSpace{
+  width: 300px;
+  border-top: 1px solid rgb(161, 157, 157);
+  margin-top: 35px;
+  padding-top: 15px;
+  
+}
+
+.wrapWhite{
+    
+}
+
+.sideAboutContainer{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.about__item{
+    display: flex;
+    align-items: center;
+    color: #696969;
+}
+
+.about__item span{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 575px){
+
+    .sideMenuContainer{
+        width: 400px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2000;
+        position: fixed;
+        background-color: white;
+    }
+    
+    .sideMenu{
+        width: 80%;
+        height: 700px;
+        margin: 0 auto;
+       
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    .sideTitle{
+       
+        display: flex;
+       
+    }
+    
+    .sideTitle__item{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .sideTitle__icon{
+        color: #696969;
+        cursor: pointer;
+        font-size: 22px;
+    
+    }
+    .sideTitle__item span{
+        font-family: 'Dosis', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    
+    .sideListContainer{
+        height: 200px;
+        margin-top: -100px;
+    }
+    
+    .sideList{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    
+    }
+    
+    .list__item{
+        font-family: 'Dosis', sans-serif;
+        font-size: 12.5px;
+        font-weight: 500;
+        padding-bottom: 15px;
+        cursor: pointer;
+    }
+    
+    .list__button{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .sideList__icon{
+        margin-right: 52px;
+    }
+    
+    .list_itemSpace{
+      width: 270px;
+      border-top: 1px solid rgb(161, 157, 157);
+      margin-top: 35px;
+      padding-top: 15px;
+      
+    }
+    
+    .wrapWhite{
+        display: none;
+    }
+    
+    .sideAboutContainer{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 150px;
+    }
+    
+    .about__item{
+        display: flex;
+        align-items: center;
+        color: #696969;
+    }
+    
+    .about__item span{
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}

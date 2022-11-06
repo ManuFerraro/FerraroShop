@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
+
+
+.loginBlurContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1990;
+    width: 100%;
+    height: 100%;
+    transition: opacity .5s cubic-bezier(.77,0,.175,1);
+    background-color: rgba(68,68,68,.45);
+}
+
+.container{
+    width: 500px;
+    height: 100%;
+    top: 0;
+    right: -500px;
+    z-index: 2000;
+    position: fixed;
+    background-color: white;
+    transition: all 0.6s;
+}
+
+.loginContainer{
+    width: 500px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    position: fixed;
+    background-color: white;
+    transition: all 0.6s;
+}
+
+.loginMenu{
+    width: 70%;
+    height: 850px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginTitle{
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.loginTitle__item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.loginTitle__icon{
+    color: #696969;
+    cursor: pointer;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.loginTitle__item span{
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.reqInformation{
+    width: 100%;
+    color: #444444;
+    margin-top: -60px;
+   font-size: 12.5px;
+}
+
+.loginFormContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -45px;
+    margin-bottom: -20px;
+}
+
+.loginEmailContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginEmailContainer span{
+    font-size: 13px;
+    color: #696969;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.loginEmail{
+   height: 40px;
+   border: 1px solid #e5e5e5;
+   padding: 15px;
+}
+
+.loginEmail:hover{
+    border: 1px solid #bbb4b4;
+}
+
+.loginPasswordContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginPasswordContainer span{
+    font-size: 13px;
+    color: #696969;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.loginPassword{
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+}
+
+.loginPassword:hover{
+    border: 1px solid #bbb4b4;
+}
+
+.loginButtonPass{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -40px;
+}
+
+.loginButtonPass button{
+    font-size: 11.3px;
+    color: #696969;
+    border: none;
+    padding: 0;
+    border-bottom: 1px solid rgb(161, 155, 155);
+}
+
+.singAnCreateContainer{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -40px;
+
+}
+
+.sing_in_or{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #d5d5d5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.sing_in{
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    transform: translateY(-50%);
+    margin: auto;
+    font-size: 13px;
+    color: #444444;
+}
+.singAnCreateContainer button{
+    width: 95%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #444444;
+    color: white;
+    font-weight: 550;
+    font-size: 13.5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginInformationDown{
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginInformationDown h5{
+    font-size: 14px;
+    color: #444444;
+}
+
+.loginInformationDown span{
+    color: #444444;
+    font-size: 13.5px;
+}
+
+
+
+.loginFooter{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: 19px;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .loginBlurContainer{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1990;
+        width: 100%;
+        height: 100%;
+         transition: opacity .5s cubic-bezier(.77,0,.175,1);
+        background-color: rgba(68,68,68,.45);
+    }
+    
+    .loginContainer{
+        width: 440px;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 2000;
+        position: fixed;
+        background-color: white;
+    }
+    
+    .loginMenu{
+        width: 70%;
+        height: 850px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}

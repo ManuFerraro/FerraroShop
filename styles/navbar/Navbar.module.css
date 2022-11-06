@@ -1,0 +1,533 @@
+.navContainer{
+    width: 92%;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.navColI{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.navMenuContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+.navMenuButton{
+    text-decoration: none;
+    border: none;
+    font-size: 1.3rem;
+    color: #696969;
+    cursor: pointer;
+}
+
+
+.navMenuSpan{
+    font-size: 13.4px;
+    color: #696969;
+}
+
+.navSearchContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 2.5rem;
+    
+}
+
+.navSearchContainer input{
+      height: 40px;
+      padding-left: 30px;
+      width: 140px;
+      -webkit-transition: width 0.3s ease-in-out;
+      transition: width 0.3s ease-in-out;
+      border: 1px solid #959595;
+  }
+
+  .navClose {
+    position: absolute;
+    right: 6px;
+    
+  }
+
+.navSearchContainer input:focus{
+    width: 1300px;
+    transition: ease-out 0.5s;
+    outline: none;
+}
+
+
+
+
+/* .navSearchContainer input:focus-within{
+    transition: all 0.5s;
+} */
+
+ .navSearchContainer input:focus-visible{
+    transition: all 0.5s;
+ }
+
+
+  .navSearchContainer .iconSearch{
+    font-size: 1.4rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+  }
+
+
+.navSearchLogo{
+    font-size: 2rem;
+    transform: rotate(80deg);
+    margin-right: 0.5rem;
+    margin-left: 0.3rem;
+
+}
+
+
+.navColII{
+    cursor: pointer;
+}
+
+
+.navColIII{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.8rem;
+    cursor: pointer;
+}
+
+.navUser span{
+    color: #696969;
+    font-size: 13.4px;
+    
+}
+
+.navUserIcon{
+    font-size: 1.3rem;
+    color: #696969;
+    margin-right: 0.5rem;
+}
+
+
+.navCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navCart span{
+    color: #696969;
+    font-size: 13.4px;
+    margin-left: 0.5rem;
+}
+
+.navCartIcon{
+    font-size: 1.3rem;
+    color: #696969;
+
+}
+
+
+
+
+
+/* //MEDIA QUERIES */
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .navContainer{
+        width: 100%;
+        height: 60px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navColIIR{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -0.5rem;
+      
+    }
+    .navColII{
+        display: none;
+        cursor: pointer;
+    }
+    .navMenuSpan{
+        display: none;
+    }
+    .navUser span{
+       display: none;
+    }
+    .navCartSpan{
+        display: none;
+
+    }
+
+    .navUserIcon{
+        font-size: 1.3rem;
+        color: #696969;
+        margin-right: -0.6rem;
+        cursor: pointer;
+    }
+    .navCartIcon{
+        font-size: 1.3rem;
+        color: #696969;
+        cursor: pointer;
+    
+    }
+    .navCartBadge{
+        margin-right: 1.5rem;
+    }
+
+    .navColI{
+
+        width: 25%;
+        display: flex;
+        align-items: center;
+    }
+
+    .navColIII{
+        width: 25%;
+    }
+    .navSearch{
+        display: none;
+    }
+
+    .navSearchR{   
+        height: 100%;
+        font-size: 1.4rem;
+        transform: rotate(90deg);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;   
+    }
+
+    .navMenuContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navMenuButton{
+        height: 100%;
+        font-size: 1.2rem;
+        margin-left: 0.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navSearchContainer{
+        display: none;
+     
+    }
+   
+
+}
+/* 
+* Escritorio extra grande */ 
+@media only screen and (min-width: 1200px){
+    .navColIIR{
+        display: none;
+    }
+    .navColII{
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .navSearchR{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1500px){
+    .navSearchContainer input:focus{
+        width: 800px;
+        transition: all 0.5s;
+    }
+}
+@media only screen and (min-width: 1500px) and (max-width:1800px){
+    .navSearchContainer input:focus{
+        width: 1100px;
+        transition: all 0.5s;
+    }
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+ 
+    .navColIIR{
+        display: none;
+    }
+    .navColII{
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .navSearchR{
+        display: none;
+    }
+    .navSearchContainer input:focus{
+        width: 600px;
+        transition: all 0.5s;
+    }
+
+    .navMenuSpan{
+        font-size: 12px;
+        color: #696969;
+    }
+
+    .navUser span{
+        color: #696969;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .navCart span{
+        color: #696969;
+        font-size: 12px;
+        margin-left: 0.5rem;
+        cursor: pointer;
+    }
+    
+    .navMenuButton{
+        text-decoration: none;
+        border: none;
+        font-size: 1rem;
+        color: #696969
+    }
+    
+    .navUserIcon{
+        font-size: 1.2rem;
+        color: #696969;
+        margin-right: 0.5rem;
+    }
+    .navCartIcon{
+        font-size: 1.1rem;
+        color: #696969;
+        cursor: pointer;
+    
+    }
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    
+    .navColIIR{
+        display: none;
+    }
+    .navColII{
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .navSearchR{
+        display: none;
+    }
+    .navSearchContainer input:focus{
+        width: 400px;
+        transition: all 0.5s;
+    }
+    .navMenuSpan{
+        font-size: 10px;
+        color: #696969;
+    }
+
+    .navUser span{
+        color: #696969;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    .navCart span{
+        color: #696969;
+        font-size: 10px;
+        margin-left: 0.5rem;
+        cursor: pointer;
+    }
+    
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+    .navContainer{
+        width: 100%;
+        height: 60px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navColIIR{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -0.5rem;
+        cursor: pointer;
+      
+    }
+    .navColII{
+        display: none;
+    }
+    .navMenuSpan{
+        display: none;
+    }
+    .navUser span{
+       display: none;
+    }
+    .navCartSpan{
+        display: none;
+
+    }
+
+    .navUserIcon{
+        font-size: 1.3rem;
+        color: #696969;
+        margin-right: -0.6rem;
+        cursor: pointer;
+    }
+    .navCartIcon{
+        font-size: 1.3rem;
+        color: #696969;
+        cursor: pointer;
+    
+    }
+    .navCartBadge{
+        margin-right: 1.5rem;
+    }
+
+    .navColI{
+
+        width: 25%;
+        display: flex;
+        align-items: center;
+    }
+
+    .navColIII{
+        width: 25%;
+    }
+    .navSearch{
+        display: none;
+    }
+
+    .navSearchR{   
+        height: 100%;
+        font-size: 1.4rem;
+        transform: rotate(90deg);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;   
+    }
+
+    .navMenuContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navMenuButton{
+        height: 100%;
+        font-size: 1.2rem;
+        margin-left: 0.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navSearchContainer{
+        display: none;
+     
+    }
+   
+/*     
+    .navColIIR{
+        display: none;
+    }
+
+    .navColII{
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navSearchR{
+        display: none;
+    }
+    .navSearchContainer input:focus{
+        width: 300px;
+        transition: all 0.5s;
+    }
+    .navSearchContainer{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        position: relative;
+        vertical-align: middle;
+        margin-left: 2.5rem;
+        transition: ease-in-out 0.3s;
+    }
+    
+.navSearchContainer input{
+    height: 40px;
+    padding-left: 30px;
+    width: 110px;
+    }
+    .navMenuSpan{
+        font-size: 10px;
+        color: #696969;
+    }
+
+    .navUser span{
+        color: #696969;
+        font-size: 10px;
+    }
+
+    .navCart span{
+        color: #696969;
+        font-size: 10px;
+        margin-left: 0.5rem;
+    } */
+    
+}
