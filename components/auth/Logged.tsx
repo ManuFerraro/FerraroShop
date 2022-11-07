@@ -14,7 +14,7 @@ import { AuthContext } from '../../context/auth';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import { selectUi, toggleUser } from '../../store/features/toggleMenuSlice';
 import NextLink from 'next/link';
-
+import  Logo from '../../../assets/images/LogoFERRAROF.svg'
 
 
 
@@ -142,7 +142,7 @@ export const Logged = () => {
                              
 
                              <div className={styles.loggedImage}>
-                             <Image className={styles.logoMenu} src={require('../../public/logoFERRAROF.svg')}
+                             <Image className={styles.logoMenu} src={Logo}
                                     alt='FERRARO'
                                     width={88}
                                     height={55}

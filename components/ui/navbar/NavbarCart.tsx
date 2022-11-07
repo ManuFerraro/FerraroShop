@@ -3,7 +3,7 @@ import { BiArrowBack } from 'react-icons/bi';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import NextLink from 'next/link';
-
+import  Logo from '../../../assets/images/LogoFERRAROF.svg'
 
 
 
@@ -31,7 +31,7 @@ export const NavbarCart = () => {
         <div className={styles.navColIIC}>
           <Image
             className={styles.logoMenu}
-            src={require("../../../public/logoFERRAROF.svg")}
+            src={Logo}
             alt="FERRARO"
             width={95}
             height={60}

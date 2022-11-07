@@ -15,7 +15,7 @@ import { CartContext } from '../../../context/cart';
 import { AuthContext } from '../../../context/auth';
 import { CiSearch } from 'react-icons/ci';
 import { AiOutlineMenu } from 'react-icons/ai';
-
+import  Logo from '../../../assets/images/LogoFERRAROF.svg'
 
 
 export const Navbar = () => {
@@ -75,7 +75,7 @@ export const Navbar = () => {
       
       {!searchOn && <div className={styles.navColII}>
         <NextLink href='/' passHref>
-          <Image className={styles.logoMenu} src={require('../../../public/logoFERRAROF.svg')}
+          <Image className={styles.logoMenu} src={Logo}
           alt='FERRARO'
           width={95}
           height={60}
