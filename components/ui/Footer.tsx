@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/Ai';
+import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import { CiYoutube } from 'react-icons/Ci';
 import { FiFacebook } from 'react-icons/fi';
 import styles from '../../styles/footer/Footer.module.css';
