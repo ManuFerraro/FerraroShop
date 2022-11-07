@@ -59,6 +59,7 @@ export const Footer = () => {
           <div className={styles.footerColIII}>
                    <Image 
                    src={require('../../public/ITALY.png')}
+                   alt="footer"
                    />
           </div>
     </div>
