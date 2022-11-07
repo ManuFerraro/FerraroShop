@@ -24,6 +24,7 @@ import { useRouter } from 'next/router';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import { selectUi, toggleAccount, toggleMenu, toggleUser } from '../../store/features/toggleMenuSlice';
 import { NextPage } from 'next';
+import LogoBox from '../../assets/images/orange-boxx.png'
 
 interface Props{
     isValidToken: boolean;
@@ -132,7 +133,7 @@ const CartPage: NextPage<Props>= ({isValidToken}) => {
                                  <Divider sx={{width: '95%'}}/>
                                  <div className={styles.orangeBox__img}>
                                         <Image
-                                          src={require('../../public/orange-boxx.png')}
+                                          src={LogoBox}
                                           alt='Orange Box'
                                           width={80}
                                           height={80}

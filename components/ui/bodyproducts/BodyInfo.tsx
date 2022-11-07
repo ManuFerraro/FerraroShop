@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Light } from '../../../assets/images';
 import styles from '../../../styles/BodyInfo.module.css';
 
 export const BodyInfo = () => {
@@ -17,7 +18,7 @@ export const BodyInfo = () => {
     </div>
      <div className={styles.topBodyImages}>
        <Image
-          src={require('../../../public/lighthearted.jpg')}
+          src={Light}
           alt='Lightearted'
           className={styles.ImageAngel}
        />
