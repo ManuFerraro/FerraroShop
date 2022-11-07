@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images : {
-    domains : ['localhost', 'res.cloudinary.com'] 
+    domains : ['localhost', 'res.cloudinary.com', 'ferraro-shop.vercel.app'] 
   }
 }
 
