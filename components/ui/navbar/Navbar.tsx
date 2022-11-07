@@ -13,7 +13,7 @@ import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import { CartContext } from '../../../context/cart';
 import { AuthContext } from '../../../context/auth';
-import { CiSearch } from 'react-icons/Ci';
+import { CiSearch } from 'react-icons/ci';
 import { AiOutlineMenu } from 'react-icons/ai';
 
 

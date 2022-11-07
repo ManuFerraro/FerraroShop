@@ -10,7 +10,7 @@ import { HiOutlineChat } from 'react-icons/hi';
 import  NextLink from 'next/link';
 import { MdAdd } from 'react-icons/md';
 import { AiOutlineClose } from 'react-icons/ai';
-import { CiLocationOn } from 'react-icons/Ci';
+import { CiLocationOn } from 'react-icons/ci';
 
 
 export const SideMenu = () => {
