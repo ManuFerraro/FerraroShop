@@ -40,7 +40,7 @@ export const Footer = () => {
                      <span>Terms and conditions</span>
                      <span>Privacy & cookies</span>
                      <span>BCR</span>
-                     <span>California Transparency in Supply Chain Act</span>
+                     <span>California Transparency</span>
                      <span>Transparency in coverage</span>
                      <span>Legal issues</span>
                </div>

@@ -262,6 +262,7 @@
     .footerServices span{
         padding-top: 10px;
         color: #696969;
+        font-size: 12px;
     }
     
     .orders{
@@ -278,6 +279,7 @@
     .orders span{
         padding-top: 10px;
         color: #696969;
+        font-size: 12px;
     }
     
     .maison{
@@ -294,6 +296,7 @@
     .maison span{
         padding-top: 10px;
         color: #696969;
+        font-size: 12px;
     }
     
     .legal{
@@ -310,13 +313,14 @@
     .legal span{
         padding-top: 10px;
         color: #696969;
+        font-size: 12px;
     }
     
     .footerColII{
         display: flex;
         justify-content: space-around;
         align-items: center;
-       
+        margin-top: -50px;
     }
     
     .footerSpanes{
@@ -325,8 +329,9 @@
     }
     
     .footerIcons{
-        font-size: 30px;
+        font-size: 20px;
         color: #696969;
+        
     }
     
     .footerColIII{

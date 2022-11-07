@@ -176,3 +176,205 @@
     justify-content: center;
     height: 300px;
 }
+
+
+/* Escritorio extra grande */
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .loggedBlurContainer{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1990;
+        width: 100%;
+        height: 100%;
+        transition: opacity .5s cubic-bezier(.77,0,.175,1);
+        background-color: rgba(68,68,68,.45);
+    }
+    
+    .loggedContainer{
+        width: 420px;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 2000;
+        position: fixed;
+        background-color: white;
+        transition: all 0.6s;
+        background: rgb(254,169,169);
+        background: linear-gradient(90deg, rgba(254,169,169,1) 0%, rgba(255,255,255,1) 23%);
+    }
+    
+    .container{
+        width: 400px;
+        height: 100%;
+        top: 0;
+        right: -400px;
+        z-index: 2000;
+        position: fixed;
+        background-color: white;
+        transition: all 0.6s;
+        background: rgb(254,169,169);
+        background: linear-gradient(90deg, rgba(254,169,169,1) 0%, rgba(255,255,255,1) 23%);
+    }
+    .closeAdminPanel{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .loggedMenu{
+        width: 100%;
+        height: 850px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .loggedForm{
+        margin-top: 10px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .loggedForm input{
+        width: 200px;
+        height: 30px;
+    }
+    
+    .loggedPerfilContiner{
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .loggedPerfil{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .loggedPerfilIcon{
+        font-size: 25px;
+       margin-right: 20px;
+    }
+    
+    .loggedOrders{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .loggedOrdersIcon{
+        font-size: 25px;
+       margin-right: 20px;
+    }
+    
+    .loggedKey{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .loggedKeyIcon{
+        font-size: 25px;
+       margin-right: 20px;
+    }
+    
+    .loggedExit{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .loggedExitIcon{
+        font-size: 25px;
+       margin-right: 20px;
+    }
+    
+    .adminContainer{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    .admin_panel{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration-line: underline;
+        font-weight: 600;
+    }
+    
+    .loggedProduct{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .loggedProductIcon{
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    
+    .loggedOrdenes{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .loggedOrdenesIcon{
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    
+    .loggedUser{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .loggedUserIcon{
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    
+    .loggedImage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+    }
+}
