@@ -14,8 +14,7 @@ import { AuthContext } from '../../context/auth';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import { selectUi, toggleUser } from '../../store/features/toggleMenuSlice';
 import NextLink from 'next/link';
-import  Logo from '../../../assets/images/LogoFERRAROF.svg'
-
+import { Logo } from '../../assets/images';
 
 
 

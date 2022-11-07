@@ -15,7 +15,7 @@ import { CartContext } from '../../../context/cart';
 import { AuthContext } from '../../../context/auth';
 import { CiSearch } from 'react-icons/ci';
 import { AiOutlineMenu } from 'react-icons/ai';
-import  Logo from '../../../assets/images/LogoFERRAROF.svg'
+import { Logo } from '../../../assets/images';
 
 
 export const Navbar = () => {

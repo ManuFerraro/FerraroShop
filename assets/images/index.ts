@@ -1,0 +1,1 @@
+export * as Logo from './LogoFERRAROF.svg'

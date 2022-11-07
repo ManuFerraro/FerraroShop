@@ -3,8 +3,7 @@ import { BiArrowBack } from 'react-icons/bi';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import NextLink from 'next/link';
-import  Logo from '../../../assets/images/LogoFERRAROF.svg'
-
+import { Logo } from '../../../assets/images';
 
 
 
