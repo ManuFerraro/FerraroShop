@@ -21,6 +21,7 @@ import { Divider, TextField,FormControl, Select, MenuItem } from '@mui/material'
 import { countries } from '../../utils/countries';
 import { useContext } from 'react';
 import { CartContext } from '../../context/cart';
+import OrangeBox from '../../assets/images/orange-boxx.png'
 
  type FormData = {
      firstName: string;
@@ -245,7 +246,7 @@ const AddressPage = () => {
                                  <Divider sx={{width: '95%'}}/>
                                  <div className={styles.orangeBox__img}>
                                         <Image
-                                          src={require('../../public/orange-boxx.png')}
+                                          src={OrangeBox}
                                           alt='Orange Box'
                                           width={80}
                                           height={80}

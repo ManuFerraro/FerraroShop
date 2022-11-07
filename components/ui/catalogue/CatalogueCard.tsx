@@ -15,7 +15,7 @@ export const CatalogueCard: FC<Props>= ({catalogue}) => {
     <div className={styles.cardContainer} key={catalogue.title}>
     <div className={styles.cardImg}>
     <Image
-              src={require(`../../../public/FerraroE/${catalogue.image}`)}
+              src={require(`../../../assets/images/FerraroE/${catalogue.image}`)}
               alt= {catalogue.title}
           />
     </div>    

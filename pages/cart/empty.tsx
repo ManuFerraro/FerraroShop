@@ -18,7 +18,7 @@ import { MdOutlineRemoveShoppingCart } from 'react-icons/md';
 import { Divider } from '@mui/material';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-
+import OrangeBox from '../../assets/images/orange-boxx.png'
 
 const EmptyPage = () => {
 
@@ -79,7 +79,7 @@ const EmptyPage = () => {
                                  <Divider sx={{width: '95%'}}/>
                                  <div className={styles.orangeBox__img}>
                                         <Image
-                                          src={require('../../public/orange-boxx.png')}
+                                          src={OrangeBox}
                                           alt='Orange Box'
                                           width={80}
                                           height={80}

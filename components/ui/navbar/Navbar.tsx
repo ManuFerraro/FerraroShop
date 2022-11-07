@@ -15,7 +15,7 @@ import { CartContext } from '../../../context/cart';
 import { AuthContext } from '../../../context/auth';
 import { CiSearch } from 'react-icons/ci';
 import { AiOutlineMenu } from 'react-icons/ai';
-import { Logo } from '../../../assets/images';
+import { Logo, LogoSmall } from '../../../assets/images';
 
 
 export const Navbar = () => {
@@ -87,7 +87,7 @@ export const Navbar = () => {
       <NextLink href='/' passHref>
       <div className={styles.navColIIR}>
          
-           <Image className={styles.logoMenuResponsive}  src={require('../../../public/hermes-logo-small.svg')}
+           <Image className={styles.logoMenuResponsive}  src={LogoSmall}
           alt='FERRARO'
           width={50}
           height={30}

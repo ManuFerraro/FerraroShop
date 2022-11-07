@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import { CiYoutube } from 'react-icons/ci';
 import { FiFacebook } from 'react-icons/fi';
+import { Logo } from '../../assets/images';
 import styles from '../../styles/footer/Footer.module.css';
 
 export const Footer = () => {
@@ -58,7 +59,7 @@ export const Footer = () => {
           </div>
           <div className={styles.footerColIII}>
                    <Image 
-                   src={require('../../public/ITALY.png')}
+                   src={Logo}
                    alt="footer"
                    />
           </div>

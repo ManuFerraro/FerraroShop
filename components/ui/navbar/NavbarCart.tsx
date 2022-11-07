@@ -3,7 +3,7 @@ import { BiArrowBack } from 'react-icons/bi';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import NextLink from 'next/link';
-import { Logo } from '../../../assets/images';
+import { Logo, LogoSmall } from '../../../assets/images';
 
 
 
@@ -41,7 +41,7 @@ export const NavbarCart = () => {
       <div className={styles.navColIIR}>
         <Image
           className={styles.logoMenuResponsive}
-          src={require("../../../public/hermes-logo-small.svg")}
+          src={LogoSmall}
           alt="FERRARO"
           width={50}
           height={30}
