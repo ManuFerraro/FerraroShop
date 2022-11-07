@@ -61,6 +61,8 @@ export const Footer = () => {
                    <Image 
                    src={Logo}
                    alt="footer"
+                   width={199}
+                   height={70}
                    />
           </div>
     </div>
